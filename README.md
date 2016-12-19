@@ -11,6 +11,10 @@ Connects to Twitter streaming API for specified Hashtag and stores all Tweets to
 
 This tool processes a set of Tweets saved as JSON files and then performs a word analysis giving you the top keywords found for your recorded session.
 
+* elastic_forwarder
+
+This bot streams a certain Hashtag and immediately forwards the messages on to an Elastic Search instance, you can then monitor the tweets in real-time - checking for trends and activity around the globe.
+
 #### Notes on limiting / troubleshooting
 
 **Error: Status Code: 420**
