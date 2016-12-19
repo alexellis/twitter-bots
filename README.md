@@ -1,7 +1,7 @@
 Twitter Bots
 ============
 
-A basic staging area for Twitter bots.
+This is a development repository for Twitter bots. I've incldued a few examples to get you started.
 
 * save_hashtag
 
