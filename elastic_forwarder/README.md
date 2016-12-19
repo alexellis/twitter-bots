@@ -18,6 +18,25 @@ $ docker build -t elastic_forward .
 $ docker run -d elastic_forward
 ```
 
+Setting up a quick ELK stack
+============================
+
+```
+elk:
+  image: sebp/elk
+  ports:
+    - "5601:5601"
+    - "9200:9200"
+    - "5044:5044"
+  volumes:
+    - /dev/shm:/dev/shm
+  environment:
+    - es.bootstrap.seccomp=false
+    - bootstrap.ignore_system_bootstrap_checks=true
+  security_opt:
+    - seccomp:unconfined 
+```
+
 Visual example:
 ===============
 
