@@ -23,12 +23,22 @@ you will probably want to create a dedicated channel that people can opt/in out 
 Related
 =======
 
-Github Gazing sends you emails or notifications when someone stars or forks your repo on Github. It's useful because webhooks have to be set up manually one per repo.
+**Github bot**
+
+Github Gazing sends you emails or notifications when someone stars or forks your repo on Github. It's useful because webhooks have to be set up manually one per repo. This watches every repository automatically. 
 
 * [Github Gazing](https://github.com/alexellis/github_gazing)
 
-The project is also written in Node.js and I run it through Docker on moddest Azure instance.
+The project is also written in Node.js and I run it through Docker on a small Azure VM.
 
+**Raspberry Pi**
+
+The Pi is really the perfect place to run this kind of code. It has 1GB RAM (which is similar to an AWS T2.micro instance) and can be left on all day consuming around 1-3W.
+
+Find out more about the Pi and Docker with [my blog series](http://blog.alexellis.io/tag/raspberry-pi).
+
+Rate-limiting and troubleshooting
+=================================
 #### Notes on limiting / troubleshooting
 
 **Error: Status Code: 420**
