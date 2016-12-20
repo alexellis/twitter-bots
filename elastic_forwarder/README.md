@@ -49,7 +49,7 @@ elk:
     - seccomp:unconfined 
 ```
 
-*docker-compose.yml*
+* [docker-compose.yml](https://github.com/alexellis/twitter-bots/blob/master/elastic_forwarder/elk/docker-compose.yml)
 
 Visual example:
 ===============
