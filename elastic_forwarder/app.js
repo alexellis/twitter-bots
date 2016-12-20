@@ -28,6 +28,7 @@ let write_queue = async.queue((task, done) => {
 
         var posting = task.content.text + "\n @" + task.content.user.screen_name + " (" + task.content.user.location + ") " + task.content.user.lang;
         console.log("Posted to elastic search.");
+        done();
     });
 }, 10);
 
