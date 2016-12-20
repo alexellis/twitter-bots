@@ -26,7 +26,12 @@ $ docker run -d elastic_forward
 Setting up a quick ELK stack
 ============================
 
-This docker-compose.yml file will give you a complete working stack that can be pointed to from your Dockerfile or Node.js code. The port for Elastic Search is 9200.
+This docker-compose.yml file will give you a complete working stack that can be pointed to from your Dockerfile or Node.js code. The port for Elastic Search is 9200. The image is huge, but contains all three components needed (logstash, kibana and elastic search (ES) - ES runs in Java so it will need large amount of free memory).
+
+For more information on ELK or Elastic Search:
+
+* [A combined ELK stack in a single Docker image](https://elk-docker.readthedocs.io/#installation)
+* [Elastic Search official docs](https://www.elastic.co/guide/en/elasticsearch/reference/1.3/search-search.html)
 
 ```
 elk:
