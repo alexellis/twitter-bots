@@ -4,4 +4,4 @@ COPY package.json .
 COPY app.js .
 RUN npm install
 
-CMD ["node", "app.js", "docker", "http://10.x.x.x:9200/tweets/tweet/"]
+CMD ["node", "app.js", "docker", "http://elk:9200/tweets/tweet/"]
