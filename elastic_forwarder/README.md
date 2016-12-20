@@ -1,3 +1,6 @@
+elastic_forwarder
+=================
+
 This bot follows a hashtag from Twitter's streaming API and then forwards them straight into an Elastic search endpoint as they are indexed. The indexed Tweets can then be used in a graphical interface called Kibana to:
 
 * Create a tag cloud
@@ -50,6 +53,8 @@ elk:
 ```
 
 * [docker-compose.yml](https://github.com/alexellis/twitter-bots/blob/master/elastic_forwarder/elk/docker-compose.yml)
+
+If you have trouble getting this to work, then you may need to run `sudo sysctl -w vm.max_map_count=262144`
 
 Visual example:
 ===============
