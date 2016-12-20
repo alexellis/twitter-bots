@@ -20,6 +20,14 @@ This bot streams a certain Hashtag and immediately forwards the messages on to a
 This bot provides a bridge between Twitter and your favourite Slack channel. In the example messages are posted into the #general channel, but 
 you will probably want to create a dedicated channel that people can opt/in out of. Bear in mind that you could also do processing on the Tweeet before forwarding it - or even filter out unwanted/wanted material.
 
+Related
+=======
+
+Github Gazing sends you emails or notifications when someone stars or forks your repo on Github. It's useful because webhooks have to be set up manually one per repo.
+
+* [Github Gazing](https://github.com/alexellis/github_gazing)
+
+The project is also written in Node.js and I run it through Docker on moddest Azure instance.
 
 #### Notes on limiting / troubleshooting
 
