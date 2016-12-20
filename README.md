@@ -15,6 +15,12 @@ This tool processes a set of Tweets saved as JSON files and then performs a word
 
 This bot streams a certain Hashtag and immediately forwards the messages on to an Elastic Search instance, you can then monitor the tweets in real-time - checking for trends and activity around the globe.
 
+* slack_forwarder
+
+This bot provides a bridge between Twitter and your favourite Slack channel. In the example messages are posted into the #general channel, but 
+you will probably want to create a dedicated channel that people can opt/in out of. Bear in mind that you could also do processing on the Tweeet before forwarding it - or even filter out unwanted/wanted material.
+
+
 #### Notes on limiting / troubleshooting
 
 **Error: Status Code: 420**
