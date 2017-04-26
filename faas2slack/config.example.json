@@ -1,0 +1,7 @@
+{
+   "slack": {
+        "token": "",
+        "channel": "general",
+        "name": "docker-bot"
+    }
+}
